@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ParameterizedWidthAdder|ParameterizedWidthAdder>io_sum",
+    "sources":[
+      "~ParameterizedWidthAdder|ParameterizedWidthAdder>io_in0",
+      "~ParameterizedWidthAdder|ParameterizedWidthAdder>io_in1"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

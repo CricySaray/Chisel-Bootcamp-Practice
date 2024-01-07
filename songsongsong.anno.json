@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~songsongsong|songsongsong>io_out",
+    "sources":[
+      "~songsongsong|songsongsong>io_in"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

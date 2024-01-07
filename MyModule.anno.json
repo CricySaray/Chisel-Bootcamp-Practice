@@ -1,0 +1,26 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~MyModule|MyModule>io_result",
+    "sources":[
+      "~MyModule|MyModule>io_data_3",
+      "~MyModule|MyModule>io_data_2",
+      "~MyModule|MyModule>io_data_0",
+      "~MyModule|MyModule>io_data_1"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

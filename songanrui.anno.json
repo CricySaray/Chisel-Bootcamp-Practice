@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~songanrui|songanrui>io_out",
+    "sources":[
+      "~songanrui|songanrui>io_in"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

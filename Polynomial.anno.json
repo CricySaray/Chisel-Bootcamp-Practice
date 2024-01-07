@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Polynomial|Polynomial>io_fOfX",
+    "sources":[
+      "~Polynomial|Polynomial>io_select",
+      "~Polynomial|Polynomial>io_x"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

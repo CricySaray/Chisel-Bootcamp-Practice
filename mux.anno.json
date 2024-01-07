@@ -1,0 +1,26 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~mux|mux>io_out",
+    "sources":[
+      "~mux|mux>io_in_sels_0",
+      "~mux|mux>io_in_bits_0",
+      "~mux|mux>io_in_sels_1",
+      "~mux|mux>io_in_bits_1"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]
