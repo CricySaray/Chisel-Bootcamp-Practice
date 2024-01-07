@@ -1,0 +1,30 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~MacTestModule|MacTestModule>io_sout",
+    "sources":[
+      "~MacTestModule|MacTestModule>io_sin"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~MacTestModule|MacTestModule>io_uout",
+    "sources":[
+      "~MacTestModule|MacTestModule>io_uin"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Mac|Mac>io_out_imag",
+    "sources":[
+      "~Mac|Mac>io_c_imag",
+      "~Mac|Mac>io_a_real",
+      "~Mac|Mac>io_b_real",
+      "~Mac|Mac>io_b_imag",
+      "~Mac|Mac>io_a_imag"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Mac|Mac>io_out_real",
+    "sources":[
+      "~Mac|Mac>io_c_real",
+      "~Mac|Mac>io_a_real",
+      "~Mac|Mac>io_b_imag",
+      "~Mac|Mac>io_b_real",
+      "~Mac|Mac>io_a_imag"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]
