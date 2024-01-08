@@ -1,3 +1,5 @@
+> ### This GitHub repo is forked from other repo which URL is at the "About" block. This is only my repo that is used to practize and make some notes for study summarizing a PDF in "Release" block.
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/freechipsproject/chisel-bootcamp/master)
 
 **_For previous users of the bootcamp, we have upgraded from Scala 2.11 to Scala 2.12. If you are encountering errors, please follow the installation instructions to upgrade to 2.12._**
